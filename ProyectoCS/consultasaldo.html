@@ -1,0 +1,63 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Servicio 4</title>
+<link rel="stylesheet" type="text/css" href="formstyle.css" />
+<link rel="icon" type="image/gif" href="img/logobank.png" />
+</head>
+ 
+<body>
+<h1>CONSULTA SALDO</h1>
+<form action="form.php" method="POST">
+ 
+<table align="center" cellpadding = "10">
+ 
+<!----- First Name ---------------------------------------------------------->
+<tr>
+<td>NOMBRE COMPLETO</td>
+<td><input type="text" name="First_Name" maxlength="30"/>
+</td>
+</tr>
+ 
+ <!----- Email Id ---------------------------------------------------------->
+<tr>
+<td>ID</td>
+<td><input type="number" name="Email_Id" maxlength="13" /></td>
+</tr>
+
+<tr>
+<td>NÚMERO DE CUENTA</td>
+<td><input type="number" name="cuenta" maxlength="8" /></td>
+</tr>
+
+<tr>
+<td>EMAIL</td>
+<td><input type="email" name="Email"/></td>
+</tr>
+ 
+<!----- Mobile Number ---------------------------------------------------------->
+<tr>
+<td>TELÉFONO</td>
+<td>
+<input type="text" name="Mobile_Number" maxlength="10" />
+</td>
+</tr>
+ 
+<tr>
+<td>FECHA ACTUAL</td>
+ <td><input type="date" name="Date"/>
+</tr>
+ 
+<!----- Submit and Reset ------------------------------------------------->
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</td>
+</tr>
+</table>
+ 
+</form>
+ 
+</body>
+</html>
